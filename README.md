@@ -52,5 +52,13 @@ Bitcoin Core test cases to Vertcoin such that they can be used to assure correct
 Translations
 ------------
 
-Changes to translations as well as new translations can be submitted to as pull
-requests to this repo or to upstream Bitcoin Core.
+Changes to translations as well as new translations can be submitted to
+[Bitcoin Core's Transifex page](https://www.transifex.com/bitcoin/bitcoin/).
+
+Translations are periodically pulled from Transifex and merged into the git repository. See the
+[translation process](doc/translation_process.md) for details on how this works.
+
+**Important**: We do not accept translation changes as GitHub pull requests because the next
+pull from Transifex would automatically overwrite them again.
+
+Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/bitcoin-translators).
