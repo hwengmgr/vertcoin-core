@@ -2687,6 +2687,7 @@ CNode::~CNode()
     CloseSocket(hSocket);
 }
 
+/* remove to see if causing errors
 void CNode::AskFor(const CInv& inv)
 {
     if (mapAskFor.size() > MAPASKFOR_MAX_SZ || setAskFor.size() > SETASKFOR_MAX_SZ)
@@ -2720,6 +2721,7 @@ void CNode::AskFor(const CInv& inv)
         mapAlreadyAskedFor.insert(std::make_pair(inv.hash, nRequestTime));
     mapAskFor.insert(std::make_pair(nRequestTime, inv));
 }
+*/
 
 bool CConnman::NodeFullyConnected(const CNode* pnode)
 {
