@@ -176,8 +176,6 @@ public:
             3.685496590998308 // dTxRate
  */
 
-        /* disable fallback fee on mainnet */
-        m_fallback_fee_enabled = false;
     }
 };
 
