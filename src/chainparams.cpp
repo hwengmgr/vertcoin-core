@@ -340,8 +340,6 @@ public:
 
         bech32_hrp = "rvct";
 
-        /* enable fallback fee on regtest */
-        m_fallback_fee_enabled = true;
     }
 
     /**
