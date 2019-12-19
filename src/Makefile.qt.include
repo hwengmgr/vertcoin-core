@@ -169,7 +169,7 @@ RES_ICONS = \
   qt/res/icons/address-book.png \
   qt/res/icons/vertcoin.ico \
   qt/res/icons/vertcoin_testnet.ico \
-  qt/res/icons/ver  tcoin.png \
+  qt/res/icons/vertcoin.png \
   qt/res/icons/chevron.png \
   qt/res/icons/clock1.png \
   qt/res/icons/clock2.png \
